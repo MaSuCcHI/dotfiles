@@ -8,7 +8,7 @@ if wezterm.config_builder then
 end
 
 -- カラースキームの設定
-config.color_scheme = 'AdventureTime'
+config.color_scheme = 'Atlas (base16)'
 config.window_background_opacity = 0.85
 config.inactive_pane_hsb = {
   saturation = 0.5,
@@ -54,7 +54,7 @@ config.keys = {
   },
   {
     key = 'o',
-    mods = 'LEADER|CTRL',
+    mods = 'CTRL',
     action = act.ActivatePaneDirection 'Next',
   },
   {
