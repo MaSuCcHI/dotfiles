@@ -62,6 +62,12 @@ config.keys = {
     mods = 'LEADER|SHIFT',
     action = act.ActivatePaneDirection 'Prev',
   },
+  -- コピーモード
+  {
+    key = '[',
+    mods = 'LEADER',
+    action = act.CopyMode { SetSelectionMode = 'Cell' }
+  },
 }
 
 return config
