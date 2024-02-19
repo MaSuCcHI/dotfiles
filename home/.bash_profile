@@ -24,6 +24,3 @@ if [ -f '/Users/keisuke/tmp/google-cloud-sdk/path.bash.inc' ]; then . '/Users/ke
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/keisuke/tmp/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/keisuke/tmp/google-cloud-sdk/completion.bash.inc'; fi
-
-tmux
-tmux source ~/.tmux
