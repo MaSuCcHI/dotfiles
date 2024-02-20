@@ -15,12 +15,11 @@ config.inactive_pane_hsb = {
   brightness = 0.5,
 }
 
-
 -- ショートカットキー設定
 local act = wezterm.action
 config.leader = { key = 'f', mods = 'CTRL', timeout_milliseconds = 3000 }
 config.keys = {
-  -- Ctrl+Shift+tで新しいタブを作成
+  -- 新しいタブを作成
   {
     key = 'c',
     mods = 'LEADER',
@@ -47,6 +46,7 @@ config.keys = {
     mods = 'LEADER',
     action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' },
   },
+  -- ペイン移動
   {
     key = 'o',
     mods = 'LEADER',
